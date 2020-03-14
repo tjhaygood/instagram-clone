@@ -1,0 +1,254 @@
+.landscape {
+  border: 1px solid #dbdbdb;
+  margin: auto;
+  max-width: 951px;
+  display: inline-block;
+  max-height: 600px;
+}
+
+/* .landscape .pictureColumn {
+  float: left;
+  max-width: 600px;
+} */
+
+.landscape .picture {
+  float: left;
+  max-width: 600px;
+  max-height: 600px;
+  border-right: 0.1px solid #dbdbdb;
+}
+
+.landscape .infoColumn {
+  float: right;
+  width: 350px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.landscape .bottom {
+  margin-top: auto;
+  /* align-self: flex-start; */
+  width: 90%;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.landscape .belowUsername {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.border {
+  border: 1px solid #dbdbdb;
+}
+
+.landscape .profilePicture {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right : 10px;
+  /* border: 2px solid red; */
+}
+
+.landscape .usernameBar {
+  height: 72px;
+  border-bottom: 1px solid #efefef;
+}
+
+.landscape .nameAndPicture {
+  float: left;
+  padding : 19px 16px 14px 16px;
+  display: inline-block;
+}
+
+.landscape .moreOptions {
+  float: right;
+  padding-top: 26px;
+  padding-right: 16px;
+}
+
+.landscape img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.landscape .buttonBar {
+  border-top: 1px solid #efefef;
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  display: inline-block;
+}
+
+.landscape .leftButtons svg {
+  margin-right: 10px;
+  float: left;
+  padding-top: 8px;
+  padding-bottom: 8px
+}
+
+.landscape .saveButton {
+  float: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.landscape .likeBar {
+  height: 18px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.landscape .titleContainer {
+  /* height: 18px; */
+  margin: auto;
+  text-align: left;
+  margin-bottom: 4px;
+  clear: both;
+  padding-top: 16px;
+}
+
+.landscape .leftPicture {
+  float: left;
+  padding-top: 4px;
+}
+
+.landscape .commentLikeBlock {
+  padding-top: 15px;
+}
+
+.landscape .commentBlock {
+  float: left;
+  width: 80%;
+}
+
+.landscape .replyButton {
+  font-size: 12px;
+  color: #999999;
+  font-weight: 600;
+  margin-right: 12px;
+}
+
+.landscape .replySection {
+  display: inline-block;
+  margin-left: 45px;
+  margin-top: 18px;
+  width: 85%;
+}
+
+.landscape .replySection .commentLikeBlock {
+  width: 100%
+}
+
+.landscape .replySection .commentBlock{
+  width: 77%;
+}
+
+.landscape .replyLine {
+  border-top: 1px solid #999; 
+  width: 24px;
+  height: 1px;
+  float: left; 
+  margin-top: 7px;
+  margin-right: 16px;
+}
+
+.landscape .viewReplies {
+  float: right;
+  font-size: 12px;
+  font-family: 'Proxima Nova Regular';
+  font-weight: 600;
+  color: #999;
+}
+
+.landscape .commentTime {
+  font-size: 12px;
+  margin-right: 12px;
+  color: #999;
+}
+
+.landscape .commentSection {
+  text-align: left;
+  height: 370px;
+  clear: both;
+  overflow: auto;
+}
+
+
+
+.landscape .viewAll {
+  color: #acacac;
+}
+
+.landscape .commentText {
+  float: left;
+  padding: 0px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.landscape .commentLike {
+  float: right;
+}
+
+.landscape .buttonStyle {
+  background-color: #FFFFFF;
+  border: none;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.landscape .timestampContainer {
+  height: 18px;
+  margin: auto;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.landscape .timestampText {
+  color: #acacac;
+}
+
+.landscape .addComContainer {
+  height: 56px;
+  margin-top: 0px;
+  display: block;
+}
+
+.landscape .addComInput {
+  resize: none;
+  outline: none;
+  width: 88%;
+  overflow: auto;
+  line-height: 18px;
+  border: none;
+  margin: 17px 0px;
+  float: left;
+}
+
+.landscape .addComSeparator {
+  width: 109%;
+  transform: translateX(-15px);
+  margin: 0px;
+  border-top: 1px solid #efefef;
+  background: transparent;
+}
+
+.landscape .postButton {
+  float: right;
+  margin: 19px 0px;
+  color: #3897f0;
+}
+
+.landscape .postButton:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
